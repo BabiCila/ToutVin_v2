@@ -1,0 +1,83 @@
+header {
+    background: black;
+    padding: 20px 0;
+  }
+
+  .caixa {
+      position: relative;
+      width: 940px;
+      margin: 0 auto;
+  }
+
+  nav {
+      position: absolute;
+      top: 110px;
+      right: 0;
+  }
+
+  nav li {
+      display: inline;
+      margin: 0 0 0 15px;
+      color: white;
+  }
+
+  nav a {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration: none;
+  } 
+
+  nav a:hover {
+       color: brown;
+       text-decoration: underline ;
+  }
+
+  main {
+    background: black;
+  }
+
+ .favoritos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+ }
+
+ .favoritos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid brown;
+    border-radius: 10px;
+ }
+
+ .favoritos li:hover {
+     border-color: brown;
+ }
+
+ .favoritos li:active {
+     border-color: white;
+ }
+
+ .favoritos li:hover h2 {
+    font-size: 34px;
+}
+
+ .favoritos h2 {
+     font-size: 28px;
+     font-weight: bold;
+     color: white;
+ }
+
+
+
+ .copyright {
+        color: black;
+        font-size: 13px;
+        margin: 20px 0 0;
+}
